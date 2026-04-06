@@ -3,13 +3,30 @@
 - [x] Material-geometry dataset release
 - [ ] Spatially-varying lighting dataset release
 
+**Update 2026/04**
+
+We regret to inform users that the original dataset download link is no longer valid due to unexpected file loss on the cloud service. We sincerely apologize for the inconvenience this has caused.
+
+We have made every effort to recover the dataset. While we were only able to restore part of the original data, the recovered subset has now been uploaded to a new server. The updated download links are available [here](Interiorverse_dataset.csv).
+
+Please note the following details about the recovered dataset:
+
+- The portion rendered with an 85° field of view (FOV) is largely intact.
+- The portion rendered with a 120° FOV has suffered substantial data loss.
+
+As a result of the missing data, the original train/validation/test splits are no longer valid.
+
+If you previously downloaded the complete dataset and still have a copy, we would greatly appreciate it if you could contact [Jingsen Zhu](mailto:zhujingsen.p32@gmail.com) to help with potential recovery.
+
+Thank you for your understanding and continued interest in our work.
+
 # InteriorVerse: Large-scale Photorealistic Indoor Scene Dataset
 
-### [Project Page (Download)](https://interiorverse.github.io/) | [Paper](https://arxiv.org/abs/2211.03017)
+### [Download](Interiorverse_dataset.csv) | [Paper](https://arxiv.org/abs/2211.03017)
 
 ![](assets/teaser.gif)
 
-InteriorVerse is a large-scale photorealistic indoor scene dataset proposed by paper [Learning-based Inverse Rendering of Complex Indoor Scenes with Differentiable Monte Carlo Raytracing](https://jingsenzhu.github.io/invrend) in SIGGRAPH Asia'22 conference proceedings. It contains synthetic rendering results of over 4000 indoor scenes with ground truth material, geometry and spatially-varying lightings. **You can find the download link in our [project page](https://interiorverse.github.io/).**
+InteriorVerse is a large-scale photorealistic indoor scene dataset proposed by paper [Learning-based Inverse Rendering of Complex Indoor Scenes with Differentiable Monte Carlo Raytracing](https://jingsenzhu.github.io/invrend) in SIGGRAPH Asia'22 conference proceedings. It contains synthetic rendering results of over 4000 indoor scenes with ground truth material, geometry and spatially-varying lightings. **You can find the download links in this [CSV file](Interiorverse_dataset.csv).**
 
 ## Material-Geometry Dataset
 

@@ -1,6 +1,19 @@
-**2026/2 Dataset download link issue**
+**InteriorVerse dataset -- Update 2026/04**
 
-We have noticed the issue that the original download link for the InteriorVerse dataset becomes invalid. We're currently looking for a new cloud service to store the dataset and will update with a new download link once we find the solution. Sorry for any inconvenience!
+We regret to inform users that the original dataset download link is no longer valid due to unexpected file loss on the cloud service. We sincerely apologize for the inconvenience this has caused.
+
+We have made every effort to recover the dataset. While we were only able to restore part of the original data, the recovered subset has now been uploaded to a new server. The updated download links are available [here](interiorverse/Interiorverse_dataset.csv).
+
+Please note the following details about the recovered dataset:
+
+- The portion rendered with an 85° field of view (FOV) is largely intact.
+- The portion rendered with a 120° FOV has suffered substantial data loss.
+
+As a result of the missing data, the original train/validation/test splits are no longer valid.
+
+**If you previously downloaded the complete dataset and still have a copy, we would greatly appreciate it if you could contact [Jingsen Zhu](mailto:zhujingsen.p32@gmail.com) to help with potential recovery.**
+
+Thank you for your understanding and continued interest in our work.
 
 **News**
 
